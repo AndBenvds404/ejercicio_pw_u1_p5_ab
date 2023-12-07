@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tabla{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3,150px);
+    margin-top: 100px;
+}
+
+button{
+    background-color: rgb(44, 99, 78);
+    border-radius: 17px;
+    margin: 7px;
+    font-size: 70px;
+}
+
+button:hover{
+    background-color: grey;
+    
+}
+
+p{
+
+    margin-top: 20px;
+    visibility: hidden;
+
+    
+}
+
+button:hover p{
+    
+    visibility: visible;
+  
+}
+
+#lbl-suma{
+    margin-top: 40px;
+    font-size: 27px;
+}
+
+
+#container-lbl-suma{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
